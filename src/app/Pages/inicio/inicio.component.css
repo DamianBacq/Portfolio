@@ -68,3 +68,11 @@ i{
     background-color: rgba(75, 4, 104, 0.5);
 }
 
+footer{
+    color: white;
+    background-color: #3c3c3c;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
