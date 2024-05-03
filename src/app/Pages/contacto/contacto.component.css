@@ -1,4 +1,25 @@
 #home{
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: #161515c9;
+    padding: 60px;
+    border-radius: 20px;
+  }
+
+footer{
+    color: white;
+    background-color: #3c3c3c;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
 }
