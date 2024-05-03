@@ -1,47 +1,53 @@
 <div id="home">
   <section>
-    <form class="formulario" [formGroup]="myForm" (ngSubmit)="Enviar()">
-      <div class="form-group">
-        <label for="nombre">Nombre</label>
-        <input
-          type="text"
-          [ngClass]=""
-          id="nombre"
-          placeholder="Nombre"
-          formControlName="nombre"
-        />
+    <div class="contenedor">
+      <div class="gif">
+        <h4 ><b>No dudes en <br> contactarme</b></h4>
+        <img src="../../../assets/letter-1174_256.gif" alt="" />
       </div>
-      <div class="form-group">
-        <label for="Email">Email</label>
-        <input
-          type="text"
-          [ngClass]=""
-          id="Email"
-          placeholder="Email"
-          formControlName="email"
-        />
-      </div>
-      <div class="form-group">
-        <label for="Asunto">Asunto</label>
-        <input
-          type="text"
-          class="form-control"
-          id="Asunto"
-          placeholder="Asunto"
-          formControlName="asunto"
-        />
-      </div>
-      <div class="form-group">
-        <label for="mensaje">Mensaje</label>
-        <input
-          type="text"
-          [ngClass]=""
-          id="Mensaje"
-          placeholder="Mensaje"
-          formControlName="mensaje"
-        />
-      </div>
-    </form>
+      <form class="formulario" [formGroup]="myForm" (ngSubmit)="Enviar()">
+        <div class="form-group">
+          <label for="nombre"><b>Nombre</b></label>
+          <input
+            type="text"
+            id="nombre"
+            placeholder="Nombre"
+            formControlName="nombre"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Email"><b>Email</b></label>
+          <input
+            type="text"
+            id="Email"
+            placeholder="Email"
+            formControlName="email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Asunto"><b>Asunto</b></label>
+          <input
+            type="text"
+            class="form-control"
+            id="Asunto"
+            placeholder="Asunto"
+            formControlName="asunto"
+          />
+        </div>
+        <div class="form-group">
+          <label for="mensaje"><b>Mensaje</b></label>
+          <textarea
+            class="mensajeCuadro"
+            type="text"
+            id="Mensaje"
+            formControlName="mensaje"
+          ></textarea>
+        </div>
+        <div class="boton">
+          <button mat-raised-button (click)="Enviar()">Enviar</button>
+        </div>
+      </form>
+    </div>
   </section>
 </div>
 <footer class="footer">

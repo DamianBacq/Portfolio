@@ -19,6 +19,11 @@ export class ContactoComponent {
   }
 
   Enviar(){
-    console.log("asd")
+    const formData = this.myForm.value;
+
+    const subject = formData.asunto;
+    const body = `Nombre: ${formData.nombre}\nEmail: ${formData.email}\nMensaje: ${formData.mensaje}`;
+
+    window.location.href=`mailto:damian.bacque235@gmail.com?subject=${subject}&body=${body}`;
   }
 }
