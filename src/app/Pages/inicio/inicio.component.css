@@ -1,8 +1,6 @@
 #home{
     width: 100%;
     height: 100vh;
-    background-position: center;
-    background-size: cover;
     position: relative;
     color: white;
     background-image: url("../../../assets/background-5035258_1920.jpg");
