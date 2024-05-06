@@ -33,7 +33,7 @@ h2{
 }
 
 .mb-3:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: 1s;
 }
 
@@ -43,6 +43,13 @@ h2{
     width: 100%;
     margin: 50px;
 }
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
 footer{
     color: white;
     background-color: #3c3c3c;
