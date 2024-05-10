@@ -4,7 +4,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../../../assets/background-5035258_1920.jpg");
+  /*background-image: url("../../../assets/background-5035258_1920.jpg");*/
+  background-color: #1f1f1f;
 }
 
 section {
