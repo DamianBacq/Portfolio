@@ -1,4 +1,8 @@
-#home {
+html {
+  scroll-behavior: smooth;
+}
+
+.home {
   display: flex;
   flex-direction: column;
   justify-content: center;
