@@ -23,5 +23,6 @@
 }
 
 .nav{
-    background-color: #3c3c3c;
+    background-color: #3c3c3c00;
+    /*border-bottom: solid 2px rgb(58, 58, 56);*/
 }
