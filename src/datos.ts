@@ -87,7 +87,7 @@ export const ANALISIS = {
 export const HABILIDADES = [
   { nombre: 'C# y .NET', donde: 'API en capas con POO en Pelu Barber y en los TPs de la facu.' },
   { nombre: 'SQL y PostgreSQL', donde: 'Modelo de datos, SQL escrito a mano, índices y restricciones.' },
-  { nombre: 'React y TypeScript', donde: 'Frontend de Pelu Barber y de las tres demos, mobile first.' },
+  { nombre: 'React y TypeScript', donde: 'Frontend de Pelu Barber y de las tres demos, mobile first. También Angular (curso UTN.BA).' },
   { nombre: 'Análisis funcional', donde: 'Relevamiento, reglas de negocio, casos de uso y UML.' },
 ]
 
@@ -98,4 +98,5 @@ export const TAMBIEN = ['Git y GitHub', 'Docker', 'APIs REST', 'JWT', 'Mercado P
 export const RECORRIDO = [
   { cuando: '2026 – hoy', que: 'Desarrollador freelance', donde: 'Sistemas a medida para comercios: relevamiento con el cliente, desarrollo, deploy y mantenimiento.' },
   { cuando: '2025 – hoy', que: 'Ingeniería en Sistemas Informáticos', donde: 'UAI, sede Lomas de Zamora. Cursando 2º año.' },
+  { cuando: '2024', que: 'Cursos de desarrollo web, UTN.BA', donde: 'JavaScript, Angular y HTML5, CSS3 y JavaScript avanzado. 179 horas, con notas Sobresaliente y Excelente.' },
 ]
